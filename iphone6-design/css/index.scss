@@ -1,0 +1,11 @@
+// 所有布局单位都使用rem即可
+@import "mixin";
+
+#app {
+	.line {
+		width: calc(100% - #{px2vw(375px)});
+		height: px2vw(375px);
+		background-color: red;
+		font-size: px2vw(36px);
+	}
+}
