@@ -3,7 +3,7 @@ body {
   height: 100%;
   margin: 0;
 }
-@media screen and (min-width: 750px) {
+@media screen  (min-width: 750px) {
   .mainCont {
     width: 133.33333vw;
     /*no*/
@@ -11,7 +11,7 @@ body {
     background: #EE2947;
   }
 }
-@media screen and (max-width: 750px) {
+@media screen  (max-width: 750px) {
   .mainCont {
     width: 100%;
     /*no*/
@@ -22,7 +22,7 @@ body {
 .topImage {
   width: 100%;
   height: 64vw;
-  /*px*/
+  /*px and do this*/
 }
 .topImage img {
   width: 100%;
@@ -37,7 +37,7 @@ body {
   display: table;
   width: 100%;
   margin-bottom: 1px;
-  /*no*/
+  /*no dont do this*/
   background-color: #fff;
 }
 .flag-item {
