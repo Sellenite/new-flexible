@@ -1,4 +1,4 @@
-#### 使用postcss-px-to-viewport工程化进行vw适配
+#### 使用postcss-px-to-viewported工程化进行vw适配
 
 一定需要加上以下viewport：
 
